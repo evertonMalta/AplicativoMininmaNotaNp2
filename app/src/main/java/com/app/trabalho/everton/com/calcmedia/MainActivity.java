@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(this.mViewHolder.editNp1.getText().toString().trim().equals("") &&
                 !this.mViewHolder.editNp2.getText().toString().trim().equals("")&&
                 !this.mViewHolder.editPim.getText().toString().trim().equals("")){
-             //calcular o quanto precisa na np1
+             //calcular o quanto precisa na np1dfd
             double np2,pim;
             np2 = Double.valueOf(this.mViewHolder.editNp2.getText().toString());
             pim = Double.valueOf(this.mViewHolder.editPim.getText().toString());
